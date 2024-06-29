@@ -1,0 +1,28 @@
+CRITICAL - 2024-06-13 13:35:41 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\Kecamatan\tampil.php on line 35.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 4 APPPATH\Controllers\Kecamatan.php(15): view('kecamatan/tampil', [...])
+ 5 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-13 13:37:00 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

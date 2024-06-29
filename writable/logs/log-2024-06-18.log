@@ -1,0 +1,207 @@
+CRITICAL - 2024-06-18 14:19:30 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:19:30 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:19:31 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:19:32 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:19:33 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:19:37 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:21:37 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:21:38 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:21:51 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:26:58 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:27:53 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:27:53 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:28:45 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:28:50 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:28:50 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:29:03 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:30:30 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatan
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatan', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:31:43 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:31:51 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:31:52 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-18 14:32:18 --> ErrorException: Undefined property: App\Controllers\Dashboard::$kecamatanModel
+[Method: GET, Route: dashboard/getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getdata()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,168 @@
+CRITICAL - 2024-06-12 13:57:59 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:06:29 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(55): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:10:26 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(55): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:10:34 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302220__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(55): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302220__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:12:51 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(55): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:13:01 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(55): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:23:34 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302170__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302170__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:24:41 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302030__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302030__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:24:45 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302040__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302040__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:24:49 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302050__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302050__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:24:53 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302070__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302070__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 14:38:07 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 15.
+ 1 APPPATH\Views\Kecamatan\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,364 @@
+ERROR - 2024-06-19 07:19:01 --> mysqli_sql_exception: Table 'sigweb.sekolah' doesn't exist in C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\websigtwo\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\websigtwo\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\websigtwo\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\websigtwo\app\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\websigtwo\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\websigtwo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\websigtwo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-19 07:19:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sigweb.sekolah' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sekolah`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:19:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sigweb.sekolah' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sekolah`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sekolah`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sekolah`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:19:01 --> [Caused by] mysqli_sql_exception: Table 'sigweb.sekolah' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `sekolah`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sekolah`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sekolah`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sekolah`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-19 07:20:48 --> mysqli_sql_exception: Table 'sigweb.sekolah' doesn't exist in C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\websigtwo\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\websigtwo\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\websigtwo\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\websigtwo\app\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\websigtwo\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\websigtwo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\websigtwo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-19 07:20:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sigweb.sekolah' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sekolah`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:20:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sigweb.sekolah' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sekolah`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sekolah`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sekolah`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:20:48 --> [Caused by] mysqli_sql_exception: Table 'sigweb.sekolah' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `sekolah`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sekolah`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sekolah`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sekolah`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:21:37 --> Error: Class "App\Models\SekolahModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:39:46 --> ErrorException: Undefined variable $kode_pos
+[Method: GET, Route: tambahwisata]
+in APPPATH\Views\Wisata\tambah.php on line 29.
+ 1 APPPATH\Views\Wisata\tambah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_pos', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/tambah', [], true)
+ 5 APPPATH\Controllers\Wisata.php(29): view('wisata/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:40:41 --> ErrorException: Undefined variable $kode_pos
+[Method: GET, Route: tambahwisata]
+in APPPATH\Views\Wisata\tambah.php on line 29.
+ 1 APPPATH\Views\Wisata\tambah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_pos', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/tambah', [], true)
+ 5 APPPATH\Controllers\Wisata.php(29): view('wisata/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:45:21 --> ErrorException: Undefined variable $kode_pos
+[Method: GET, Route: tambahwisata]
+in APPPATH\Views\Wisata\tambah.php on line 29.
+ 1 APPPATH\Views\Wisata\tambah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_pos', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/tambah', [], true)
+ 5 APPPATH\Controllers\Wisata.php(29): view('wisata/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-19 07:47:05 --> mysqli_sql_exception: Duplicate entry '53195' for key 'PRIMARY' in C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `wi...', 0)
+#1 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wi...')
+#2 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wi...')
+#3 C:\xampp\htdocs\websigtwo\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wi...', Array, false)
+#4 C:\xampp\htdocs\websigtwo\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\websigtwo\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\websigtwo\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\websigtwo\app\Controllers\Wisata.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+#9 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#10 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\websigtwo\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\websigtwo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\websigtwo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-19 07:47:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '53195' for key 'PRIMARY'
+[Method: POST, Route: simpanwisata]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (:kode_pos:, :kode_kecamatan:, :nama_wisata:, :alamat_wisata:, :harga_tiket:, :koordinat:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Wisata.php(56): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:47:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '53195' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (:kode_pos:, :kode_kecamatan:, :nama_wisata:, :alamat_wisata:, :harga_tiket:, :koordinat:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Wisata.php(56): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:47:05 --> [Caused by] mysqli_sql_exception: Duplicate entry '53195' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (:kode_pos:, :kode_kecamatan:, :nama_wisata:, :alamat_wisata:, :harga_tiket:, :koordinat:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Wisata.php(56): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-19 07:48:34 --> mysqli_sql_exception: Duplicate entry '53195' for key 'PRIMARY' in C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `wi...', 0)
+#1 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wi...')
+#2 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wi...')
+#3 C:\xampp\htdocs\websigtwo\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wi...', Array, false)
+#4 C:\xampp\htdocs\websigtwo\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\websigtwo\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\websigtwo\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\websigtwo\app\Controllers\Wisata.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+#9 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#10 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\websigtwo\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\websigtwo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\websigtwo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-19 07:48:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '53195' for key 'PRIMARY'
+[Method: POST, Route: simpanwisata]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (:kode_pos:, :kode_kecamatan:, :nama_wisata:, :alamat_wisata:, :harga_tiket:, :koordinat:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Wisata.php(56): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:48:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '53195' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (:kode_pos:, :kode_kecamatan:, :nama_wisata:, :alamat_wisata:, :harga_tiket:, :koordinat:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Wisata.php(56): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 07:48:34 --> [Caused by] mysqli_sql_exception: Duplicate entry '53195' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (\'53195\', \'3302070\', \'taman wisata jenglongan\', \'Jl Citanduy RT 001 RW 003\', \'20000\', \'-7.584800, 109.368500\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wisata` (`kode_pos`, `kode_kecamatan`, `nama_wisata`, `alamat_wisata`, `harga_tiket`, `koordinat`) VALUES (:kode_pos:, :kode_kecamatan:, :nama_wisata:, :alamat_wisata:, :harga_tiket:, :koordinat:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Wisata.php(56): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 08:29:35 --> ErrorException: Undefined property: stdClass::$kecamatan
+[Method: GET, Route: wisata]
+in APPPATH\Views\Wisata\tampil.php on line 35.
+ 1 APPPATH\Views\Wisata\tampil.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kecamatan', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tampil.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/tampil', [], true)
+ 5 APPPATH\Controllers\Wisata.php(14): view('wisata/tampil', [...])
+ 6 APPPATH\Controllers\Wisata.php(8): App\Controllers\Wisata->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 08:34:58 --> ErrorException: Undefined property: stdClass::$nama_sekolah
+[Method: GET, Route: editwisata/53195]
+in APPPATH\Views\Wisata\edit.php on line 43.
+ 1 APPPATH\Views\Wisata\edit.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_sekolah', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\edit.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/edit', [], true)
+ 5 APPPATH\Controllers\Wisata.php(46): view('wisata/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->edit('53195')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 08:35:40 --> ErrorException: Undefined variable $nama_wisata
+[Method: GET, Route: editwisata/53195]
+in APPPATH\Views\Wisata\edit.php on line 45.
+ 1 APPPATH\Views\Wisata\edit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_wisata', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\edit.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/edit', [], true)
+ 5 APPPATH\Controllers\Wisata.php(46): view('wisata/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->edit('53195')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 08:38:53 --> ErrorException: Undefined variable $kode_pos
+[Method: GET, Route: tambahwisata]
+in APPPATH\Views\Wisata\tambah.php on line 29.
+ 1 APPPATH\Views\Wisata\tambah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_pos', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/tambah', [], true)
+ 5 APPPATH\Controllers\Wisata.php(31): view('wisata/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

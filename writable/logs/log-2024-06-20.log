@@ -1,0 +1,28 @@
+CRITICAL - 2024-06-20 10:12:28 --> ErrorException: Undefined variable $kode_pos
+[Method: GET, Route: tambahwisata]
+in APPPATH\Views\Wisata\tambah.php on line 29.
+ 1 APPPATH\Views\Wisata\tambah.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_pos', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/tambah', [], true)
+ 5 APPPATH\Controllers\Wisata.php(31): view('wisata/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-20 10:16:25 --> ErrorException: Undefined variable $nama_wisata
+[Method: GET, Route: editwisata/53162]
+in APPPATH\Views\Wisata\edit.php on line 45.
+ 1 APPPATH\Views\Wisata\edit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_wisata', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\edit.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Wisata\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('wisata/edit', [], true)
+ 5 APPPATH\Controllers\Wisata.php(46): view('wisata/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Wisata->edit('53162')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

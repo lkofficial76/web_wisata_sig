@@ -1,0 +1,489 @@
+CRITICAL - 2024-06-14 03:25:22 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(43): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 03:37:14 --> Error: Call to undefined function App\Controllers\show_404()
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Controllers\Kecamatan.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 03:37:22 --> Error: Call to undefined function App\Controllers\show_404()
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Controllers\Kecamatan.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 03:41:25 --> ErrorException: Cannot declare class App\Controllers\Kecamatan, because the name is already in use
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Models\KecamatanModel.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-14 03:42:28 --> ErrorException: Cannot declare class App\Controllers\Kecamatan, because the name is already in use
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Models\KecamatanModel.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-14 03:42:53 --> ErrorException: Cannot declare class App\Controllers\Kecamatan, because the name is already in use
+[Method: GET, Route: kecamatan]
+in APPPATH\Models\KecamatanModel.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-14 03:42:58 --> ErrorException: Cannot declare class App\Controllers\Kecamatan, because the name is already in use
+[Method: GET, Route: kecamatan]
+in APPPATH\Models\KecamatanModel.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-14 03:43:34 --> Error: Call to undefined function App\Controllers\show_404()
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Controllers\Kecamatan.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 03:44:17 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(55): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 03:45:37 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(55): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 04:23:33 --> ErrorException: Undefined variable $kode_kecamatan
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 30.
+ 1 APPPATH\Views\Kecamatan\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_kecamatan', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 04:25:11 --> ErrorException: Undefined variable $id_kabupaten
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kabupaten', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 04:34:57 --> ErrorException: Undefined variable $kecamatan
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 04:35:12 --> ErrorException: Undefined variable $kecamatan
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 04:36:18 --> ErrorException: Undefined variable $kecamatan
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:24:58 --> ErrorException: Attempt to read property "kode_kecamatan" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:26:01 --> ParseError: syntax error, unexpected token ":", expecting "]"
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 46.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:26:17 --> ErrorException: Attempt to read property "kode_kecamatan" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:26:31 --> ErrorException: Undefined variable $kode_kecamatan
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_kecamatan', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:27:08 --> ErrorException: Undefined variable $id_kabupaten
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 17.
+ 1 APPPATH\Views\Kecamatan\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kabupaten', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:28:58 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 17.
+ 1 APPPATH\Views\Kecamatan\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:30:43 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:37:44 --> Error: Undefined constant "query"
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 18.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 4 APPPATH\Controllers\Kecamatan.php(46): view('kecamatan/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:38:55 --> Error: Undefined constant "query"
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 18.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 4 APPPATH\Controllers\Kecamatan.php(46): view('kecamatan/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:39:17 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websig\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(46): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:59:05 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\websig\system\Model.php on line 919 and at least 2 expected
+[Method: GET, Route: kecamatan]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->join('kabupaten.id_kabupaten = kabupaten.id_kabupaten')
+ 2 APPPATH\Controllers\Kecamatan.php(12): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 05:59:14 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\websig\system\Model.php on line 919 and at least 2 expected
+[Method: GET, Route: kecamatan]
+in SYSTEMPATH\Database\BaseBuilder.php on line 620.
+ 1 SYSTEMPATH\Model.php(919): CodeIgniter\Database\BaseBuilder->join('kabupaten.id_kabupaten = kabupaten.id_kabupaten')
+ 2 APPPATH\Controllers\Kecamatan.php(12): CodeIgniter\Model->__call('join', [...])
+ 3 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 06:00:21 --> ErrorException: Undefined variable $kabupatenModel
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Controllers\Kecamatan.php on line 32.
+ 1 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupatenModel', 'C:\\xampp\\htdocs\\websig\\app\\Controllers\\Kecamatan.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 06:13:32 --> ErrorException: Attempt to read property "id_kabupaten" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 16.
+ 1 APPPATH\Views\Kecamatan\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on null', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Kecamatan\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(45): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 06:19:14 --> ErrorException: Undefined variable $kecamatanModel
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Controllers\Kecamatan.php on line 42.
+ 1 APPPATH\Controllers\Kecamatan.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Kecamatan.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 06:19:27 --> ErrorException: Undefined variable $kecamatanModel
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Controllers\Kecamatan.php on line 42.
+ 1 APPPATH\Controllers\Kecamatan.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatanModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Kecamatan.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 06:31:37 --> ErrorException: Attempt to read property "kode_kecamatan" on null
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on null', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(44): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 06:31:42 --> ErrorException: Attempt to read property "kode_kecamatan" on null
+[Method: GET, Route: editkecamatan/3302030__]
+in APPPATH\Views\Kecamatan\edit.php on line 31.
+ 1 APPPATH\Views\Kecamatan\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_kecamatan" on null', 'C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Kecamatan\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\websigtwo\\app\\Views\\Kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(44): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302030__')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 10:58:17 --> ErrorException: Undefined variable $kecamatan
+[Method: POST, Route: simpankecamatan]
+in APPPATH\Controllers\Kecamatan.php on line 58.
+ 1 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Kecamatan.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 10:59:14 --> ErrorException: Undefined variable $kecamatan
+[Method: POST, Route: simpankecamatan]
+in APPPATH\Controllers\Kecamatan.php on line 59.
+ 1 APPPATH\Controllers\Kecamatan.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Kecamatan.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-14 10:59:27 --> mysqli_sql_exception: Duplicate entry '3302200' for key 'PRIMARY' in C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\websigtwo\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\websigtwo\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\websigtwo\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\websigtwo\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\websigtwo\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\websigtwo\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\websigtwo\app\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+#9 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\websigtwo\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\websigtwo\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\websigtwo\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\websigtwo\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-14 10:59:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '3302200' for key 'PRIMARY'
+[Method: POST, Route: simpankecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 10:59:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '3302200' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'3302200\', \'1\', \'Baturraden\', \'54092\', \'46\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'3302200\', \'1\', \'Baturraden\', \'54092\', \'46\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 10:59:27 --> [Caused by] mysqli_sql_exception: Duplicate entry '3302200' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'3302200\', \'1\', \'Baturraden\', \'54092\', \'46\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'3302200\', \'1\', \'Baturraden\', \'54092\', \'46\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'3302200\', \'1\', \'Baturraden\', \'54092\', \'46\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 11:21:26 --> ErrorException: Undefined variable $kecamatan
+[Method: POST, Route: simpankecamatan]
+in APPPATH\Controllers\Kecamatan.php on line 58.
+ 1 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Kecamatan.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-14 11:29:31 --> ErrorException: Undefined variable $kabupatenModel
+[Method: GET, Route: editkecamatan/3302020__]
+in APPPATH\Controllers\Kecamatan.php on line 32.
+ 1 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupatenModel', 'C:\\xampp\\htdocs\\websigtwo\\app\\Controllers\\Kecamatan.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('3302020__')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
